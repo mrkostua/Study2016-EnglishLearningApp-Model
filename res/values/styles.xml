@@ -1,0 +1,17 @@
+
+
+<resources>
+    <style name="MyMaterialDesignTheme" parent="MyMaterialDesignTheme.Base">
+    </style>
+    <style name="MyMaterialDesignTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+    <style name="Preference_style">
+        <item name="android:background">@color/navigationBarColor</item>
+        <item name="android:selectable">true</item>
+    </style>
+</resources>
